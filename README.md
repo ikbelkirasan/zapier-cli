@@ -15,11 +15,11 @@ My Custom Zapier CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @ikbelkirasan/zapier-cli
+$ npm install -g zapier-cli
 $ zapier-cli COMMAND
 running command...
 $ zapier-cli (-v|--version|version)
-@ikbelkirasan/zapier-cli/1.0.0 linux-x64 node-v12.14.0
+zapier-cli/1.0.0 linux-x64 node-v12.14.0
 $ zapier-cli --help [COMMAND]
 USAGE
   $ zapier-cli COMMAND
