@@ -1,7 +1,11 @@
 import { Command, flags } from "@oclif/command";
 import * as Listr from "listr";
-import { uniq } from "lodash";
-import { readAccountKey, readAppConfig, runCommand } from "../common/zapier";
+import {
+  getAccounts,
+  readAccountKey,
+  readAppConfig,
+  runCommand,
+} from "../common/zapier";
 
 export default class Push extends Command {
   static description = "Build and upload the current app.";
@@ -9,7 +13,6 @@ export default class Push extends Command {
   static flags = {
     help: flags.help({ char: "h" }),
     account: flags.string({
-      required: true,
       char: "a",
       description: "The account to which the app should be uploaded",
       multiple: true,
@@ -17,9 +20,9 @@ export default class Push extends Command {
   };
 
   async run() {
-    const { flags } = this.parse(Push);
-    const accounts = uniq(flags.account);
-    const definitions = accounts.map((account) => {
+    const accounts = await getAccounts(this, Push);
+
+    const definitions = accounts.map((account: string) => {
       return {
         title: `Uploading to Zapier Account: ${account}`,
         task: async () => {

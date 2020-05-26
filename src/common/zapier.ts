@@ -1,10 +1,14 @@
 import * as execa from "execa";
 import { constants, promises as fs } from "fs";
+import * as globby from "globby";
+import { prompt } from "inquirer";
+import * as _ from "lodash";
 import * as path from "path";
 
 async function ensureFile(filePath: string) {
   try {
     await fs.access(filePath, constants.W_OK);
+    //tslint:disable-next-line:no-unused
   } catch (error) {
     await fs.writeFile(filePath, "{}");
   }
@@ -40,6 +44,7 @@ export async function readAppConfig(accountName: string, ensure?: boolean) {
   let account: { [key: string]: any };
   try {
     account = JSON.parse(json);
+    //tslint:disable-next-line:no-unused
   } catch (error) {
     account = {};
   }
@@ -58,6 +63,7 @@ export async function readAccountKey(accountName: string, ensure?: boolean) {
   let account: { [key: string]: any };
   try {
     account = JSON.parse(json);
+    //tslint:disable-next-line:no-unused
   } catch (error) {
     account = {};
   }
@@ -80,4 +86,45 @@ export function runCommand(
   });
 
   return p;
+}
+
+interface Account {
+  name: string;
+}
+
+export async function listAccounts(): Promise<Account[]> {
+  const files = await globby([".zapier/accounts/*.json"]);
+  const accounts: Account[] = [];
+  files.forEach((file) => {
+    const name = file.split(".json")[0].split("/").pop();
+    if (name) {
+      accounts.push({ name });
+    }
+  });
+  return accounts;
+}
+
+export async function getAccounts(command: any, className: any) {
+  const { flags } = command.parse(className);
+
+  const isMultiple = className.flags.account.multiple;
+  const flagAccounts = isMultiple ? _.uniq(flags.account) : flags.account;
+
+  const { accounts = flagAccounts } = await prompt([
+    {
+      name: "accounts",
+      message: "What accounts would you like to use?",
+      type: isMultiple ? "checkbox" : "list",
+      choices: await listAccounts(),
+      when: () => {
+        return isMultiple ? !flagAccounts.length : !flagAccounts;
+      },
+    },
+  ]);
+
+  if (accounts.length === 0) {
+    throw new Error("You must select one account at least.");
+  }
+
+  return accounts;
 }

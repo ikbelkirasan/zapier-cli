@@ -1,5 +1,10 @@
 import { Command, flags } from "@oclif/command";
-import { readAccountKey, readAppConfig, runCommand } from "../common/zapier";
+import {
+  getAccounts,
+  readAccountKey,
+  readAppConfig,
+  runCommand,
+} from "../common/zapier";
 
 export default class Validate extends Command {
   static description = "Validate your integration.";
@@ -7,7 +12,6 @@ export default class Validate extends Command {
   static flags = {
     help: flags.help({ char: "h" }),
     account: flags.string({
-      required: true,
       char: "a",
       description:
         "The account name that will be used to store the new integration configuration",
@@ -15,9 +19,10 @@ export default class Validate extends Command {
   };
 
   async run() {
-    const { flags } = this.parse(Validate);
-    const { file: appFile } = await readAppConfig(flags.account);
-    const { file: authFile } = await readAccountKey(flags.account);
+    const account = await getAccounts(this, Validate);
+
+    const { file: appFile } = await readAppConfig(account);
+    const { file: authFile } = await readAccountKey(account);
     const subprocess = runCommand("validate", [], appFile, authFile, {
       stdio: "inherit",
     });

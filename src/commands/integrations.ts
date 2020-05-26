@@ -1,6 +1,11 @@
 import { Command, flags } from "@oclif/command";
 import cli from "cli-ux";
-import { readAccountKey, readAppConfig, runCommand } from "../common/zapier";
+import {
+  getAccounts,
+  readAccountKey,
+  readAppConfig,
+  runCommand,
+} from "../common/zapier";
 
 export default class Integrations extends Command {
   static description = "List any integrations that you have admin access to.";
@@ -8,7 +13,6 @@ export default class Integrations extends Command {
   static flags = {
     help: flags.help({ char: "h" }),
     account: flags.string({
-      required: true,
       char: "a",
       description: "The account to which the app should be uploaded",
     }),
@@ -16,9 +20,10 @@ export default class Integrations extends Command {
 
   async run() {
     try {
-      const { flags } = this.parse(Integrations);
-      const { file: appFile } = await readAppConfig(flags.account);
-      const { file: authFile } = await readAccountKey(flags.account);
+      const account = await getAccounts(this, Integrations);
+
+      const { file: appFile } = await readAppConfig(account);
+      const { file: authFile } = await readAccountKey(account);
       cli.action.start("Fetching your integrations list");
       const subprocess = runCommand("integrations", [], appFile, authFile);
       const response = await subprocess;

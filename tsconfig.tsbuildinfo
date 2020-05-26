@@ -586,19 +586,109 @@
         "signature": "b02b39fb49676079f3d60238c2b47aaa120fc834bb40f51e3c05c3f7a29ad46c",
         "affectsGlobalScope": false
       },
-      "./src/common/zapier.ts": {
-        "version": "de03c68d64b543d2b24a13edb10a1bb77a520b25a8b6476e9df9ffd8019740c4",
-        "signature": "401bb63bfd75f591aa97cafa80602dce10feafc3ae9b88f70935f935a2a408c9",
+      "./node_modules/@nodelib/fs.scandir/out/adapters/fs.d.ts": {
+        "version": "6cee571d9f8ea88d197d1614e5cf328391e96dff69ca61ab5299a630d0c65822",
+        "signature": "6cee571d9f8ea88d197d1614e5cf328391e96dff69ca61ab5299a630d0c65822",
         "affectsGlobalScope": false
       },
-      "./src/commands/integrations.ts": {
-        "version": "581e9fabcc5aa4dbe211b6f96e6d63e9e9bb905b48a8d6b588e4061463af763e",
-        "signature": "095e5acfec7010e9ed18fefb48f6cd9b7e3859078bc697d181ef9f17b6497bda",
+      "./node_modules/@nodelib/fs.stat/out/adapters/fs.d.ts": {
+        "version": "ceebf93146ac7b3f85276a2501de57c5cf5bb19742944c958bd831f995b41409",
+        "signature": "ceebf93146ac7b3f85276a2501de57c5cf5bb19742944c958bd831f995b41409",
         "affectsGlobalScope": false
       },
-      "./src/commands/login.ts": {
-        "version": "7263c760d7ad7e6602592baad9d6d7f09c6eabe98ad016788006c76f93a9d52d",
-        "signature": "be408aec98a644217ef11c5ac1ff1a63d1823d3570a6f816a090d6a69ed64e87",
+      "./node_modules/@nodelib/fs.stat/out/settings.d.ts": {
+        "version": "30c47bd1f03a220a10e8c11708a2c73c04135999ca1a35271605f9683d36b432",
+        "signature": "30c47bd1f03a220a10e8c11708a2c73c04135999ca1a35271605f9683d36b432",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.stat/out/types/index.d.ts": {
+        "version": "8b9fa6dfb2bec7abe9937fe049505d896550b2ad600cb7114b6fe2813b5cf180",
+        "signature": "8b9fa6dfb2bec7abe9937fe049505d896550b2ad600cb7114b6fe2813b5cf180",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.stat/out/providers/async.d.ts": {
+        "version": "c692034610ac35559227657172f6f76581ee7b16c319c7d5973e19b650f11b9f",
+        "signature": "c692034610ac35559227657172f6f76581ee7b16c319c7d5973e19b650f11b9f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.stat/out/index.d.ts": {
+        "version": "079488cc4bf1eef64297994ef8719c078a86380610beea1d1a920c9436997967",
+        "signature": "079488cc4bf1eef64297994ef8719c078a86380610beea1d1a920c9436997967",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.scandir/out/settings.d.ts": {
+        "version": "354b18c096926d3f35b597b6309d9792b6517840bbf972c095930d067e28de83",
+        "signature": "354b18c096926d3f35b597b6309d9792b6517840bbf972c095930d067e28de83",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.scandir/out/types/index.d.ts": {
+        "version": "a86bb35bb7b946058e544aba4a7ac5359648d58904184701f1ca23b26b36ccd3",
+        "signature": "a86bb35bb7b946058e544aba4a7ac5359648d58904184701f1ca23b26b36ccd3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.scandir/out/providers/async.d.ts": {
+        "version": "fa316e5f457f8a5ef600f305a60cb0031f0cf07c7c6991b520d353739f56c6ad",
+        "signature": "fa316e5f457f8a5ef600f305a60cb0031f0cf07c7c6991b520d353739f56c6ad",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.scandir/out/index.d.ts": {
+        "version": "105b0c9e3b159a1f32ca33bf1cb5ead919ea15bab7143bd99b298ceb687b0e84",
+        "signature": "105b0c9e3b159a1f32ca33bf1cb5ead919ea15bab7143bd99b298ceb687b0e84",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.walk/out/types/index.d.ts": {
+        "version": "e336f6c501a424c6e016b3244b094d5924d06b320cb659aaa0adb647ab5a9fd6",
+        "signature": "e336f6c501a424c6e016b3244b094d5924d06b320cb659aaa0adb647ab5a9fd6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.walk/out/settings.d.ts": {
+        "version": "07924b2c69a8f7019f242fbb1d9363b98731456d8afc791fc0622c91f60598b7",
+        "signature": "07924b2c69a8f7019f242fbb1d9363b98731456d8afc791fc0622c91f60598b7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.walk/out/readers/reader.d.ts": {
+        "version": "b8576d89cac43fe52489662c1218b463cba5197c3bec501e2832f5663327838d",
+        "signature": "b8576d89cac43fe52489662c1218b463cba5197c3bec501e2832f5663327838d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.walk/out/readers/async.d.ts": {
+        "version": "655697b99bbf31f8f245230dbe8aea4a962558c2d1b5413b936251456a2619ad",
+        "signature": "655697b99bbf31f8f245230dbe8aea4a962558c2d1b5413b936251456a2619ad",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.walk/out/providers/async.d.ts": {
+        "version": "51d7fcd7672c0f53f01c84e5ea8ef5f3947e8a385807de7eecdc0b7464c2dd68",
+        "signature": "51d7fcd7672c0f53f01c84e5ea8ef5f3947e8a385807de7eecdc0b7464c2dd68",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@nodelib/fs.walk/out/index.d.ts": {
+        "version": "96892cc7ee950d2bbded6dc7f03ff50a719df54f6529aa938ce3854fef04ee2a",
+        "signature": "96892cc7ee950d2bbded6dc7f03ff50a719df54f6529aa938ce3854fef04ee2a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fast-glob/out/types/index.d.ts": {
+        "version": "4498108732bcb5b7000ff9cdc011058b4155e985271ac3f926468acfed0c79dd",
+        "signature": "4498108732bcb5b7000ff9cdc011058b4155e985271ac3f926468acfed0c79dd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fast-glob/out/settings.d.ts": {
+        "version": "36d7b72ed8f35f9e21cc223c06697eca0d4699178fc59cfd3a310e2983fd0fd6",
+        "signature": "36d7b72ed8f35f9e21cc223c06697eca0d4699178fc59cfd3a310e2983fd0fd6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fast-glob/out/managers/tasks.d.ts": {
+        "version": "8ef499f8b856beca668333ffd33b7a29a83641cbe18c9ad8f25d2748efdf4f0f",
+        "signature": "8ef499f8b856beca668333ffd33b7a29a83641cbe18c9ad8f25d2748efdf4f0f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fast-glob/out/index.d.ts": {
+        "version": "51bfe35171efe121cefb2501a6cd674c367d541c4c8b0ae639c126adcc84f37d",
+        "signature": "51bfe35171efe121cefb2501a6cd674c367d541c4c8b0ae639c126adcc84f37d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/globby/index.d.ts": {
+        "version": "f79975518babe92f5df484b2e3b3f1451c2d8f073f4d88e77abcc87423d334cd",
+        "signature": "f79975518babe92f5df484b2e3b3f1451c2d8f073f4d88e77abcc87423d334cd",
         "affectsGlobalScope": false
       },
       "./node_modules/rxjs/internal/Subscription.d.ts": {
@@ -921,9 +1011,119 @@
         "signature": "41249bfce2b6ec504f2b83fd6704194277e264b13f1b896550f60dc6f98b36a3",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/listr/index.d.ts": {
-        "version": "8940b429e5fe2341862f7a8c4a74b3cbc593d2b5938fa8bd2f1ec077413079fb",
-        "signature": "8940b429e5fe2341862f7a8c4a74b3cbc593d2b5938fa8bd2f1ec077413079fb",
+      "./node_modules/@types/through/index.d.ts": {
+        "version": "656424ca784760c679bf2677d8aaf55d1cb8452cd0ac04bbe1c0f659f45f8c11",
+        "signature": "656424ca784760c679bf2677d8aaf55d1cb8452cd0ac04bbe1c0f659f45f8c11",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/objects/choice.d.ts": {
+        "version": "5d2651c679f59706bf484e7d423f0ec2d9c79897e2e68c91a3f582f21328d193",
+        "signature": "5d2651c679f59706bf484e7d423f0ec2d9c79897e2e68c91a3f582f21328d193",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/objects/separator.d.ts": {
+        "version": "30d49e69cb62f350ff0bc5dda1c557429c425014955c19c557f101c0de9272e7",
+        "signature": "30d49e69cb62f350ff0bc5dda1c557429c425014955c19c557f101c0de9272e7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/objects/choices.d.ts": {
+        "version": "d3747dbed45540212e9a906c2fb8b5beb691f2cd0861af58a66dc01871004f38",
+        "signature": "d3747dbed45540212e9a906c2fb8b5beb691f2cd0861af58a66dc01871004f38",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/utils/screen-manager.d.ts": {
+        "version": "05a21cbb7cbe1ec502e7baca1f4846a4e860d96bad112f3e316b995ba99715b7",
+        "signature": "05a21cbb7cbe1ec502e7baca1f4846a4e860d96bad112f3e316b995ba99715b7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/prompts/base.d.ts": {
+        "version": "1eaee2b52f1c0e1848845a79050c1d06ae554d8050c35e3bf479f13d6ee19dd5",
+        "signature": "1eaee2b52f1c0e1848845a79050c1d06ae554d8050c35e3bf479f13d6ee19dd5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/utils/paginator.d.ts": {
+        "version": "fd219904eea67c470dfebbaf44129b0db858207c3c3b55514bdc84de547b1687",
+        "signature": "fd219904eea67c470dfebbaf44129b0db858207c3c3b55514bdc84de547b1687",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/prompts/checkbox.d.ts": {
+        "version": "4de232968f584b960b4101b4cdae593456aff149c5d0c70c2389248e9eb9fbac",
+        "signature": "4de232968f584b960b4101b4cdae593456aff149c5d0c70c2389248e9eb9fbac",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/prompts/confirm.d.ts": {
+        "version": "933c42f6ed2768265dfb42faa817ce8d902710c57a21a1859a9c3fe5e985080e",
+        "signature": "933c42f6ed2768265dfb42faa817ce8d902710c57a21a1859a9c3fe5e985080e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/prompts/editor.d.ts": {
+        "version": "c5430542eeebb207d651e8b00a08e4bb680c47ecb73dd388d8fa597a1fc5de5b",
+        "signature": "c5430542eeebb207d651e8b00a08e4bb680c47ecb73dd388d8fa597a1fc5de5b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/prompts/expand.d.ts": {
+        "version": "a6c5c9906262cf10549989c0061e5a44afdc1f61da77d5e09418a9ecea0018fe",
+        "signature": "a6c5c9906262cf10549989c0061e5a44afdc1f61da77d5e09418a9ecea0018fe",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/prompts/input.d.ts": {
+        "version": "bc6e433cb982bf63eaa523dbbbd30fe12960a09861b352d77baf77ad6dd8886d",
+        "signature": "bc6e433cb982bf63eaa523dbbbd30fe12960a09861b352d77baf77ad6dd8886d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/prompts/list.d.ts": {
+        "version": "9af64ab00918f552388252977c1569fe31890686ca1fdb8e20f58d3401c9a50c",
+        "signature": "9af64ab00918f552388252977c1569fe31890686ca1fdb8e20f58d3401c9a50c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/prompts/number.d.ts": {
+        "version": "3d3cc03b5c6e056c24aac76789f4bc67caee98a4f0774ab82bc8ba34d16be916",
+        "signature": "3d3cc03b5c6e056c24aac76789f4bc67caee98a4f0774ab82bc8ba34d16be916",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/prompts/password.d.ts": {
+        "version": "747ce36fa27a750a05096f3610e59c9b5a55e13defec545c01a75fd13d67b620",
+        "signature": "747ce36fa27a750a05096f3610e59c9b5a55e13defec545c01a75fd13d67b620",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/prompts/rawlist.d.ts": {
+        "version": "1a8f503c64bdb36308f245960d9e4acac4cf65d8b6bd0534f88230ebf0be7883",
+        "signature": "1a8f503c64bdb36308f245960d9e4acac4cf65d8b6bd0534f88230ebf0be7883",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/ui/baseUI.d.ts": {
+        "version": "a2c1f4012459547d62116d724e7ec820bb2e6848da40ea0747bf160ffd99b283",
+        "signature": "a2c1f4012459547d62116d724e7ec820bb2e6848da40ea0747bf160ffd99b283",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/ui/bottom-bar.d.ts": {
+        "version": "0dc197e52512a7cbea4823cc33c23b0337af97bd59b38bf83be047f37cd8c9a8",
+        "signature": "0dc197e52512a7cbea4823cc33c23b0337af97bd59b38bf83be047f37cd8c9a8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/ui/prompt.d.ts": {
+        "version": "492c93ade227fe4545fabb3035b9dd5d57d8b4fde322e5217fdaef20aa1b80a8",
+        "signature": "492c93ade227fe4545fabb3035b9dd5d57d8b4fde322e5217fdaef20aa1b80a8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/utils/events.d.ts": {
+        "version": "83c54a3b3e836d1773b8c23ff76ce6e0aae1a2209fc772b75e9de173fec9eac0",
+        "signature": "83c54a3b3e836d1773b8c23ff76ce6e0aae1a2209fc772b75e9de173fec9eac0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/utils/readline.d.ts": {
+        "version": "475e411f48f74c14b1f6e50cc244387a5cc8ce52340dddfae897c96e03f86527",
+        "signature": "475e411f48f74c14b1f6e50cc244387a5cc8ce52340dddfae897c96e03f86527",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/lib/utils/utils.d.ts": {
+        "version": "5573ce7aa683a81c9a727294ffdb47d82d7715a148bfe9f4ddcf2f6cdfef1f0a",
+        "signature": "5573ce7aa683a81c9a727294ffdb47d82d7715a148bfe9f4ddcf2f6cdfef1f0a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inquirer/index.d.ts": {
+        "version": "2cd9edbb4a6411a9f5258237dd73323db978d7aa9ebf1d1b0ac79771ac233e24",
+        "signature": "2cd9edbb4a6411a9f5258237dd73323db978d7aa9ebf1d1b0ac79771ac233e24",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/lodash/ts3.1/common/common.d.ts": {
@@ -991,24 +1191,44 @@
         "signature": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
         "affectsGlobalScope": true
       },
+      "./src/common/zapier.ts": {
+        "version": "dd8beb8afcd2fec84153a088fa34e3bca305c7c0f595506c80fece4505e716ee",
+        "signature": "ec9b424be4ad6b4baa2355c1e69d044f06c39b325c92299de35547b2a99da169",
+        "affectsGlobalScope": false
+      },
+      "./src/commands/integrations.ts": {
+        "version": "93b4791bf9a9d506f3f7c40849f824b54d312e6c201084642076a779675e5571",
+        "signature": "f8d633a45688741396da26ef750c61f67815e2ff4415e779530fde66c2596520",
+        "affectsGlobalScope": false
+      },
+      "./src/commands/login.ts": {
+        "version": "33a9bbbedfd74c332fe39d8f8300cb474af6a6c8a5ae26c22b595fd50fc89712",
+        "signature": "64920a82342287c5bce251eeecb6fe875187ccccd5abe25705b612363cf87b1b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/listr/index.d.ts": {
+        "version": "8940b429e5fe2341862f7a8c4a74b3cbc593d2b5938fa8bd2f1ec077413079fb",
+        "signature": "8940b429e5fe2341862f7a8c4a74b3cbc593d2b5938fa8bd2f1ec077413079fb",
+        "affectsGlobalScope": false
+      },
       "./src/commands/push.ts": {
-        "version": "57ed452bf3a47f3d7e1b49ebf644a26221f006135dfe0b3c4cc739750269a5fe",
+        "version": "55ffed88f9ffe0c01fe32c9da6faf3fc86676aa5e101584983a2bf31491f321f",
         "signature": "e4077e3ed6465b26ba6c9e1327b132dfa1a047a163141db17fb9b0bf6c26cfc3",
         "affectsGlobalScope": false
       },
       "./src/commands/register.ts": {
-        "version": "006f7324927672d2f0ec802179e16debf6cc1e76eee6e0e7461edbac735a73f9",
-        "signature": "33016e9e0acc7df6b488db545581d23e0553c68b2d9a994613de79f7c43b40e9",
+        "version": "50959dc314310a08c3c9b6a9030092c150129eba2a8c3c4d78027a5e9c06c4d8",
+        "signature": "711d786dacf22f842def64f6241f52bf455e389ac1f7fdc2c55cb40253e2f2b0",
         "affectsGlobalScope": false
       },
       "./src/commands/run.ts": {
-        "version": "ac2aab6c752f9085477d32bd0104a39bc4543c1df8087a94129bf21ba960bb6a",
-        "signature": "8f0c037960dcc1d6b25cd3623d6f985c4a946a5d4c5ca5abfa72d053310a239e",
+        "version": "245ad59a6d46e4fdca1228adfb7cfddc4ec03416c65ca78ada1b237e6e5af934",
+        "signature": "961a5cc5824f097fa2a7ba2aded0e81436daf3d54ec042f5295c6ee178952968",
         "affectsGlobalScope": false
       },
       "./src/commands/validate.ts": {
-        "version": "a22f6b786bf5365ab285de852fcae3a4af9160804cf96c894aaf559fa10922af",
-        "signature": "e0aa7b8ec0762f783156a5e0ccf6318c91b0d10dd83bd25223fe9a2c9676b3d3",
+        "version": "0a851b20e67de27fb6868fc97a325ba14ebe976734510a2f3bd5e01d6b424143",
+        "signature": "ea6720abae1ee918ac4efc8b6dd31e38e31fe079c0ac2e71aad56e5162e87304",
         "affectsGlobalScope": false
       },
       "./node_modules/@babel/types/lib/index.d.ts": {
@@ -1175,6 +1395,114 @@
         "./node_modules/@types/node/util.d.ts"
       ],
       "./node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.scandir/out/adapters/fs.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.scandir/out/index.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/adapters/fs.d.ts",
+        "./node_modules/@nodelib/fs.scandir/out/providers/async.d.ts",
+        "./node_modules/@nodelib/fs.scandir/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.scandir/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.scandir/out/providers/async.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.scandir/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.scandir/out/settings.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/adapters/fs.d.ts",
+        "./node_modules/@nodelib/fs.stat/out/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.scandir/out/types/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.stat/out/adapters/fs.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.stat/out/index.d.ts": [
+        "./node_modules/@nodelib/fs.stat/out/adapters/fs.d.ts",
+        "./node_modules/@nodelib/fs.stat/out/providers/async.d.ts",
+        "./node_modules/@nodelib/fs.stat/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.stat/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.stat/out/providers/async.d.ts": [
+        "./node_modules/@nodelib/fs.stat/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.stat/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.stat/out/settings.d.ts": [
+        "./node_modules/@nodelib/fs.stat/out/adapters/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.stat/out/types/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/index.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/index.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/providers/async.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/types/index.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/providers/async.d.ts": [
+        "./node_modules/@nodelib/fs.walk/out/readers/async.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/readers/async.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/index.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/readers/reader.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/readers/reader.d.ts": [
+        "./node_modules/@nodelib/fs.walk/out/settings.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/settings.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/index.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/types/index.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/index.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
@@ -1374,6 +1702,173 @@
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/index.d.ts": [
+        "./node_modules/@types/inquirer/lib/objects/choice.d.ts",
+        "./node_modules/@types/inquirer/lib/objects/choices.d.ts",
+        "./node_modules/@types/inquirer/lib/objects/separator.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/checkbox.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/confirm.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/editor.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/expand.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/input.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/list.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/number.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/password.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/rawlist.d.ts",
+        "./node_modules/@types/inquirer/lib/ui/bottom-bar.d.ts",
+        "./node_modules/@types/inquirer/lib/ui/prompt.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/events.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/readline.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/screen-manager.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/utils.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/through/index.d.ts",
+        "./node_modules/rxjs/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/objects/choice.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/objects/choices.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/objects/choice.d.ts",
+        "./node_modules/@types/inquirer/lib/objects/separator.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/objects/separator.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/base.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/screen-manager.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/rxjs/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/checkbox.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/confirm.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/editor.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/rxjs/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/expand.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/input.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/list.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/number.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/input.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/password.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/rawlist.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/ui/baseUI.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/ui/bottom-bar.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/ui/baseUI.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/through/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/ui/prompt.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/ui/baseUI.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/rxjs/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/utils/events.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/rxjs/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/utils/paginator.d.ts": [
+        "./node_modules/@types/inquirer/lib/utils/screen-manager.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/utils/readline.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/utils/screen-manager.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/utils/utils.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/rxjs/index.d.ts"
       ],
       "./node_modules/@types/istanbul-lib-coverage/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -1942,6 +2437,12 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/@types/through/index.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/@types/yargs-parser/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
@@ -2014,6 +2515,36 @@
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/fast-glob/out/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/fast-glob/out/managers/tasks.d.ts",
+        "./node_modules/fast-glob/out/settings.d.ts",
+        "./node_modules/fast-glob/out/types/index.d.ts"
+      ],
+      "./node_modules/fast-glob/out/managers/tasks.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/fast-glob/out/settings.d.ts",
+        "./node_modules/fast-glob/out/types/index.d.ts"
+      ],
+      "./node_modules/fast-glob/out/settings.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/fast-glob/out/types/index.d.ts"
+      ],
+      "./node_modules/fast-glob/out/types/index.d.ts": [
+        "./node_modules/@nodelib/fs.walk/out/index.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/globby/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/fast-glob/out/index.d.ts"
       ],
       "./node_modules/rxjs/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -2608,7 +3139,6 @@
       "./src/commands/push.ts": [
         "./node_modules/@oclif/command/lib/index.d.ts",
         "./node_modules/@types/listr/index.d.ts",
-        "./node_modules/@types/lodash/ts3.1/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./src/common/zapier.ts"
@@ -2632,11 +3162,14 @@
         "./src/common/zapier.ts"
       ],
       "./src/common/zapier.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/path.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./node_modules/execa/index.d.ts"
+        "./node_modules/execa/index.d.ts",
+        "./node_modules/globby/index.d.ts"
       ],
       "./src/index.ts": [
         "./node_modules/@oclif/command/lib/index.d.ts",
@@ -2651,6 +3184,114 @@
         "./node_modules/@types/node/util.d.ts"
       ],
       "./node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.scandir/out/adapters/fs.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.scandir/out/index.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/adapters/fs.d.ts",
+        "./node_modules/@nodelib/fs.scandir/out/providers/async.d.ts",
+        "./node_modules/@nodelib/fs.scandir/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.scandir/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.scandir/out/providers/async.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.scandir/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.scandir/out/settings.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/adapters/fs.d.ts",
+        "./node_modules/@nodelib/fs.stat/out/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.scandir/out/types/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.stat/out/adapters/fs.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.stat/out/index.d.ts": [
+        "./node_modules/@nodelib/fs.stat/out/adapters/fs.d.ts",
+        "./node_modules/@nodelib/fs.stat/out/providers/async.d.ts",
+        "./node_modules/@nodelib/fs.stat/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.stat/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.stat/out/providers/async.d.ts": [
+        "./node_modules/@nodelib/fs.stat/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.stat/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.stat/out/settings.d.ts": [
+        "./node_modules/@nodelib/fs.stat/out/adapters/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.stat/out/types/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/index.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/index.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/providers/async.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/types/index.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/providers/async.d.ts": [
+        "./node_modules/@nodelib/fs.walk/out/readers/async.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/readers/async.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/index.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/readers/reader.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/settings.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/readers/reader.d.ts": [
+        "./node_modules/@nodelib/fs.walk/out/settings.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/settings.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/index.d.ts",
+        "./node_modules/@nodelib/fs.walk/out/types/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@nodelib/fs.walk/out/types/index.d.ts": [
+        "./node_modules/@nodelib/fs.scandir/out/index.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
@@ -2850,6 +3491,173 @@
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/index.d.ts": [
+        "./node_modules/@types/inquirer/lib/objects/choice.d.ts",
+        "./node_modules/@types/inquirer/lib/objects/choices.d.ts",
+        "./node_modules/@types/inquirer/lib/objects/separator.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/checkbox.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/confirm.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/editor.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/expand.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/input.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/list.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/number.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/password.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/rawlist.d.ts",
+        "./node_modules/@types/inquirer/lib/ui/bottom-bar.d.ts",
+        "./node_modules/@types/inquirer/lib/ui/prompt.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/events.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/readline.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/screen-manager.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/utils.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/through/index.d.ts",
+        "./node_modules/rxjs/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/objects/choice.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/objects/choices.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/objects/choice.d.ts",
+        "./node_modules/@types/inquirer/lib/objects/separator.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/objects/separator.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/base.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/screen-manager.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/rxjs/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/checkbox.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/confirm.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/editor.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/rxjs/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/expand.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/input.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/list.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/number.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/input.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/password.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/prompts/rawlist.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+        "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/ui/baseUI.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/ui/bottom-bar.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/ui/baseUI.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/through/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/ui/prompt.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/inquirer/lib/ui/baseUI.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/rxjs/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/utils/events.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/rxjs/index.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/utils/paginator.d.ts": [
+        "./node_modules/@types/inquirer/lib/utils/screen-manager.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/utils/readline.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/utils/screen-manager.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/inquirer/lib/utils/utils.d.ts": [
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/rxjs/index.d.ts"
       ],
       "./node_modules/@types/istanbul-lib-coverage/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -3418,6 +4226,12 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/@types/through/index.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/@types/yargs-parser/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
@@ -3490,6 +4304,36 @@
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/fast-glob/out/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/fast-glob/out/managers/tasks.d.ts",
+        "./node_modules/fast-glob/out/settings.d.ts",
+        "./node_modules/fast-glob/out/types/index.d.ts"
+      ],
+      "./node_modules/fast-glob/out/managers/tasks.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/fast-glob/out/settings.d.ts",
+        "./node_modules/fast-glob/out/types/index.d.ts"
+      ],
+      "./node_modules/fast-glob/out/settings.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/fast-glob/out/types/index.d.ts"
+      ],
+      "./node_modules/fast-glob/out/types/index.d.ts": [
+        "./node_modules/@nodelib/fs.walk/out/index.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/globby/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/fast-glob/out/index.d.ts"
       ],
       "./node_modules/rxjs/index.d.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -4106,6 +4950,22 @@
     "semanticDiagnosticsPerFile": [
       "./node_modules/@babel/parser/typings/babel-parser.d.ts",
       "./node_modules/@babel/types/lib/index.d.ts",
+      "./node_modules/@nodelib/fs.scandir/out/adapters/fs.d.ts",
+      "./node_modules/@nodelib/fs.scandir/out/index.d.ts",
+      "./node_modules/@nodelib/fs.scandir/out/providers/async.d.ts",
+      "./node_modules/@nodelib/fs.scandir/out/settings.d.ts",
+      "./node_modules/@nodelib/fs.scandir/out/types/index.d.ts",
+      "./node_modules/@nodelib/fs.stat/out/adapters/fs.d.ts",
+      "./node_modules/@nodelib/fs.stat/out/index.d.ts",
+      "./node_modules/@nodelib/fs.stat/out/providers/async.d.ts",
+      "./node_modules/@nodelib/fs.stat/out/settings.d.ts",
+      "./node_modules/@nodelib/fs.stat/out/types/index.d.ts",
+      "./node_modules/@nodelib/fs.walk/out/index.d.ts",
+      "./node_modules/@nodelib/fs.walk/out/providers/async.d.ts",
+      "./node_modules/@nodelib/fs.walk/out/readers/async.d.ts",
+      "./node_modules/@nodelib/fs.walk/out/readers/reader.d.ts",
+      "./node_modules/@nodelib/fs.walk/out/settings.d.ts",
+      "./node_modules/@nodelib/fs.walk/out/types/index.d.ts",
       "./node_modules/@oclif/command/lib/command.d.ts",
       "./node_modules/@oclif/command/lib/flags.d.ts",
       "./node_modules/@oclif/command/lib/index.d.ts",
@@ -4140,6 +5000,28 @@
       "./node_modules/@types/events/index.d.ts",
       "./node_modules/@types/glob/index.d.ts",
       "./node_modules/@types/graceful-fs/index.d.ts",
+      "./node_modules/@types/inquirer/index.d.ts",
+      "./node_modules/@types/inquirer/lib/objects/choice.d.ts",
+      "./node_modules/@types/inquirer/lib/objects/choices.d.ts",
+      "./node_modules/@types/inquirer/lib/objects/separator.d.ts",
+      "./node_modules/@types/inquirer/lib/prompts/base.d.ts",
+      "./node_modules/@types/inquirer/lib/prompts/checkbox.d.ts",
+      "./node_modules/@types/inquirer/lib/prompts/confirm.d.ts",
+      "./node_modules/@types/inquirer/lib/prompts/editor.d.ts",
+      "./node_modules/@types/inquirer/lib/prompts/expand.d.ts",
+      "./node_modules/@types/inquirer/lib/prompts/input.d.ts",
+      "./node_modules/@types/inquirer/lib/prompts/list.d.ts",
+      "./node_modules/@types/inquirer/lib/prompts/number.d.ts",
+      "./node_modules/@types/inquirer/lib/prompts/password.d.ts",
+      "./node_modules/@types/inquirer/lib/prompts/rawlist.d.ts",
+      "./node_modules/@types/inquirer/lib/ui/baseUI.d.ts",
+      "./node_modules/@types/inquirer/lib/ui/bottom-bar.d.ts",
+      "./node_modules/@types/inquirer/lib/ui/prompt.d.ts",
+      "./node_modules/@types/inquirer/lib/utils/events.d.ts",
+      "./node_modules/@types/inquirer/lib/utils/paginator.d.ts",
+      "./node_modules/@types/inquirer/lib/utils/readline.d.ts",
+      "./node_modules/@types/inquirer/lib/utils/screen-manager.d.ts",
+      "./node_modules/@types/inquirer/lib/utils/utils.d.ts",
       "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
       "./node_modules/@types/istanbul-lib-report/index.d.ts",
       "./node_modules/@types/istanbul-reports/index.d.ts",
@@ -4216,6 +5098,7 @@
       "./node_modules/@types/sinon/ts3.1/index.d.ts",
       "./node_modules/@types/sinonjs__fake-timers/index.d.ts",
       "./node_modules/@types/stack-utils/index.d.ts",
+      "./node_modules/@types/through/index.d.ts",
       "./node_modules/@types/yargs-parser/index.d.ts",
       "./node_modules/@types/yargs/index.d.ts",
       "./node_modules/cli-ux/lib/action/base.d.ts",
@@ -4230,6 +5113,11 @@
       "./node_modules/cli-ux/lib/styled/table.d.ts",
       "./node_modules/cli-ux/lib/styled/tree.d.ts",
       "./node_modules/execa/index.d.ts",
+      "./node_modules/fast-glob/out/index.d.ts",
+      "./node_modules/fast-glob/out/managers/tasks.d.ts",
+      "./node_modules/fast-glob/out/settings.d.ts",
+      "./node_modules/fast-glob/out/types/index.d.ts",
+      "./node_modules/globby/index.d.ts",
       "./node_modules/rxjs/index.d.ts",
       "./node_modules/rxjs/internal/AsyncSubject.d.ts",
       "./node_modules/rxjs/internal/BehaviorSubject.d.ts",

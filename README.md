@@ -62,7 +62,7 @@ USAGE
   $ zapier-cli integrations
 
 OPTIONS
-  -a, --account=account  (required) The account to which the app should be uploaded
+  -a, --account=account  The account to which the app should be uploaded
   -h, --help             show CLI help
 ```
 
@@ -77,7 +77,7 @@ USAGE
   $ zapier-cli login
 
 OPTIONS
-  -a, --account=account  (required) The account name that will be used as a identifier to store the deploy key
+  -a, --account=account  The account name that will be used as a identifier to store the deploy key
   -h, --help             show CLI help
 ```
 
@@ -92,7 +92,7 @@ USAGE
   $ zapier-cli push
 
 OPTIONS
-  -a, --account=account  (required) The account to which the app should be uploaded
+  -a, --account=account  The account to which the app should be uploaded
   -h, --help             show CLI help
 ```
 
@@ -107,7 +107,7 @@ USAGE
   $ zapier-cli register TITLE
 
 OPTIONS
-  -a, --account=account  (required) The account name that will be used to store the new integration configuration
+  -a, --account=account  The account name that will be used to store the new integration configuration
   -h, --help             show CLI help
 ```
 
@@ -122,7 +122,7 @@ USAGE
   $ zapier-cli run
 
 OPTIONS
-  -a, --account=account  (required) The account name that will be used to store the new integration configuration
+  -a, --account=account  The account name that will be used to store the new integration configuration
   -h, --help             show CLI help
 ```
 
@@ -137,7 +137,7 @@ USAGE
   $ zapier-cli validate
 
 OPTIONS
-  -a, --account=account  (required) The account name that will be used to store the new integration configuration
+  -a, --account=account  The account name that will be used to store the new integration configuration
   -h, --help             show CLI help
 ```
 
