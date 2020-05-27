@@ -1226,6 +1226,11 @@
         "signature": "961a5cc5824f097fa2a7ba2aded0e81436daf3d54ec042f5295c6ee178952968",
         "affectsGlobalScope": false
       },
+      "./src/commands/upload.ts": {
+        "version": "c0b9235b7864542a864f6990c2d49dff6d3c516fb7bb3f479d02b02f2a6969c5",
+        "signature": "8093757764774e8e2e4c1d669322aeabe5ebaca1bba4a394d72f5d39283b941c",
+        "affectsGlobalScope": false
+      },
       "./src/commands/validate.ts": {
         "version": "0a851b20e67de27fb6868fc97a325ba14ebe976734510a2f3bd5e01d6b424143",
         "signature": "ea6720abae1ee918ac4efc8b6dd31e38e31fe079c0ac2e71aad56e5162e87304",
@@ -3155,6 +3160,12 @@
         "./node_modules/@types/node/util.d.ts",
         "./src/common/zapier.ts"
       ],
+      "./src/commands/upload.ts": [
+        "./node_modules/@oclif/command/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/common/zapier.ts"
+      ],
       "./src/commands/validate.ts": [
         "./node_modules/@oclif/command/lib/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -4935,6 +4946,11 @@
         "./node_modules/@oclif/parser/lib/flags.d.ts",
         "./node_modules/execa/index.d.ts"
       ],
+      "./src/commands/upload.ts": [
+        "./node_modules/@oclif/command/lib/index.d.ts",
+        "./node_modules/@oclif/parser/lib/flags.d.ts",
+        "./node_modules/execa/index.d.ts"
+      ],
       "./src/commands/validate.ts": [
         "./node_modules/@oclif/command/lib/index.d.ts",
         "./node_modules/@oclif/parser/lib/flags.d.ts",
@@ -5220,6 +5236,7 @@
       "./src/commands/push.ts",
       "./src/commands/register.ts",
       "./src/commands/run.ts",
+      "./src/commands/upload.ts",
       "./src/commands/validate.ts",
       "./src/common/zapier.ts",
       "./src/index.ts"

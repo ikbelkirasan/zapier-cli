@@ -34,6 +34,7 @@ USAGE
 * [`zapier-cli push`](#zapier-cli-push)
 * [`zapier-cli register TITLE`](#zapier-cli-register-title)
 * [`zapier-cli run`](#zapier-cli-run)
+* [`zapier-cli upload`](#zapier-cli-upload)
 * [`zapier-cli validate`](#zapier-cli-validate)
 
 ## `zapier-cli help [COMMAND]`
@@ -127,6 +128,21 @@ OPTIONS
 ```
 
 _See code: [src/commands/run.ts](https://github.com/ikbelkirasan/zapier-cli/blob/v1.0.0/src/commands/run.ts)_
+
+## `zapier-cli upload`
+
+Upload to Zapier.
+
+```
+USAGE
+  $ zapier-cli upload
+
+OPTIONS
+  -a, --account=account  The account name that will be used to store the new integration configuration
+  -h, --help             show CLI help
+```
+
+_See code: [src/commands/upload.ts](https://github.com/ikbelkirasan/zapier-cli/blob/v1.0.0/src/commands/upload.ts)_
 
 ## `zapier-cli validate`
 
