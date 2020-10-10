@@ -1226,9 +1226,14 @@
         "signature": "961a5cc5824f097fa2a7ba2aded0e81436daf3d54ec042f5295c6ee178952968",
         "affectsGlobalScope": false
       },
+      "./src/commands/scaffold.ts": {
+        "version": "c2799c040c8a516d1869b69b2156853af8ef692f518673051e6e7d71c05783e1",
+        "signature": "9a801fab69638dfd9600d7e799795ed3d087fbb974c94a930d89d13f3bd3b1fa",
+        "affectsGlobalScope": false
+      },
       "./src/commands/upload.ts": {
-        "version": "c0b9235b7864542a864f6990c2d49dff6d3c516fb7bb3f479d02b02f2a6969c5",
-        "signature": "8093757764774e8e2e4c1d669322aeabe5ebaca1bba4a394d72f5d39283b941c",
+        "version": "7a46a77efe988023233e09f27d4e594941ecc1dd6cf84da61d5fdb5c0d2c0cdd",
+        "signature": "ed1e876967fca88c151528761244c98839708efac5c0fa1c9a3655dcafc46d49",
         "affectsGlobalScope": false
       },
       "./src/commands/validate.ts": {
@@ -1345,6 +1350,11 @@
         "version": "f624e578325b8c58e55b30c998b1f4c3ec1b61a9fa66373da4250c89b7880d44",
         "signature": "f624e578325b8c58e55b30c998b1f4c3ec1b61a9fa66373da4250c89b7880d44",
         "affectsGlobalScope": true
+      },
+      "./node_modules/@types/mkdirp/index.d.ts": {
+        "version": "c535422967fe3cf8adfee4e1a543870aede1fa77fd055a382e6f6582a2d866eb",
+        "signature": "c535422967fe3cf8adfee4e1a543870aede1fa77fd055a382e6f6582a2d866eb",
+        "affectsGlobalScope": false
       },
       "./node_modules/@types/normalize-package-data/index.d.ts": {
         "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
@@ -2149,6 +2159,12 @@
         "./node_modules/@types/node/util.d.ts"
       ],
       "./node_modules/@types/minimatch/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/mkdirp/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
@@ -3160,8 +3176,17 @@
         "./node_modules/@types/node/util.d.ts",
         "./src/common/zapier.ts"
       ],
+      "./src/commands/scaffold.ts": [
+        "./node_modules/@oclif/command/lib/index.d.ts",
+        "./node_modules/@types/inquirer/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/execa/index.d.ts"
+      ],
       "./src/commands/upload.ts": [
         "./node_modules/@oclif/command/lib/index.d.ts",
+        "./node_modules/@types/listr/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./src/common/zapier.ts"
@@ -3944,6 +3969,12 @@
         "./node_modules/@types/node/util.d.ts"
       ],
       "./node_modules/@types/minimatch/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/mkdirp/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
@@ -4946,10 +4977,13 @@
         "./node_modules/@oclif/parser/lib/flags.d.ts",
         "./node_modules/execa/index.d.ts"
       ],
+      "./src/commands/scaffold.ts": [
+        "./node_modules/@oclif/command/lib/index.d.ts",
+        "./node_modules/@oclif/parser/lib/flags.d.ts"
+      ],
       "./src/commands/upload.ts": [
         "./node_modules/@oclif/command/lib/index.d.ts",
-        "./node_modules/@oclif/parser/lib/flags.d.ts",
-        "./node_modules/execa/index.d.ts"
+        "./node_modules/@oclif/parser/lib/flags.d.ts"
       ],
       "./src/commands/validate.ts": [
         "./node_modules/@oclif/command/lib/index.d.ts",
@@ -5064,6 +5098,7 @@
       "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
       "./node_modules/@types/lodash/ts3.1/index.d.ts",
       "./node_modules/@types/minimatch/index.d.ts",
+      "./node_modules/@types/mkdirp/index.d.ts",
       "./node_modules/@types/node/assert.d.ts",
       "./node_modules/@types/node/async_hooks.d.ts",
       "./node_modules/@types/node/base.d.ts",
@@ -5236,6 +5271,7 @@
       "./src/commands/push.ts",
       "./src/commands/register.ts",
       "./src/commands/run.ts",
+      "./src/commands/scaffold.ts",
       "./src/commands/upload.ts",
       "./src/commands/validate.ts",
       "./src/common/zapier.ts",

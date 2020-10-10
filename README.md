@@ -19,7 +19,7 @@ $ npm install -g zapier-cli
 $ zapier-cli COMMAND
 running command...
 $ zapier-cli (-v|--version|version)
-zapier-cli/1.0.0 linux-x64 node-v12.14.0
+zapier-cli/1.0.0 linux-x64 node-v12.18.2
 $ zapier-cli --help [COMMAND]
 USAGE
   $ zapier-cli COMMAND
@@ -34,6 +34,7 @@ USAGE
 * [`zapier-cli push`](#zapier-cli-push)
 * [`zapier-cli register TITLE`](#zapier-cli-register-title)
 * [`zapier-cli run`](#zapier-cli-run)
+* [`zapier-cli scaffold`](#zapier-cli-scaffold)
 * [`zapier-cli upload`](#zapier-cli-upload)
 * [`zapier-cli validate`](#zapier-cli-validate)
 
@@ -128,6 +129,21 @@ OPTIONS
 ```
 
 _See code: [src/commands/run.ts](https://github.com/ikbelkirasan/zapier-cli/blob/v1.0.0/src/commands/run.ts)_
+
+## `zapier-cli scaffold`
+
+Scaffolds a new app or a part of it.
+
+```
+USAGE
+  $ zapier-cli scaffold
+
+OPTIONS
+  -a, --account=account  The account to which the app should be uploaded
+  -h, --help             show CLI help
+```
+
+_See code: [src/commands/scaffold.ts](https://github.com/ikbelkirasan/zapier-cli/blob/v1.0.0/src/commands/scaffold.ts)_
 
 ## `zapier-cli upload`
 
